@@ -1,0 +1,199 @@
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set loopcount=100 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=umass3 --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initialized for AR1
+Dataset with 26676 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 9052 
+Setting anomaly at time 1499 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              158.54 |              613.62 |                     0.13 |                0.35 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 74, False Pos = 206, False Neg = 16
+Precision score: 0.264
+Recall score: 0.822
+F1 score: 0.400
+MCC: 0.463
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.077
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:01:01.141000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 99 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=umass3 --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initialized for AR1
+Dataset with 26676 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 19660 
+Setting anomaly at time 11362 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              155.30 |              616.20 |                     0.13 |                0.34 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 82, False Pos = 209, False Neg = 8
+Precision score: 0.282
+Recall score: 0.911
+F1 score: 0.430
+MCC: 0.504
+Mean time to detect: 1.500
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.077
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:01:02.895000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 98 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=umass3 --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initialized for AR1
+Dataset with 26676 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 10176 
+Setting anomaly at time 25749 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              162.26 |              620.46 |                     0.13 |                0.34 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 70, False Pos = 206, False Neg = 20
+Precision score: 0.254
+Recall score: 0.778
+F1 score: 0.383
+MCC: 0.441
+Mean time to detect: 0.500
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.080
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:01:43.379000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 97 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=umass3 --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initialized for AR1
+Dataset with 26676 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 8001 
+Setting anomaly at time 25713 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              159.55 |              617.95 |                     0.13 |                0.34 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 60, False Pos = 206, False Neg = 30
+Precision score: 0.226
+Recall score: 0.667
+F1 score: 0.337
+MCC: 0.385
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.074
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:01:56.406000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 96 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=umass3 --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initialized for AR1
+Dataset with 26676 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 16337 
+Setting anomaly at time 19077 
+Terminate batch job (Y/N)? 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 95 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=umass3 --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Terminate batch job (Y/N)? 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>

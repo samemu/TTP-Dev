@@ -1,0 +1,860 @@
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set loopcount=10 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 1758 
+Setting anomaly at time 4656 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              165.34 |              299.57 |                     0.52 |                0.59 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 24, False Neg = 2
+Precision score: 0.786
+Recall score: 0.978
+F1 score: 0.871
+MCC: 0.875
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:24.538000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 9 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 9499 
+Setting anomaly at time 1570 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.19 |              296.10 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 18, False Neg = 2
+Precision score: 0.830
+Recall score: 0.978
+F1 score: 0.898
+MCC: 0.900
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 1.000
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:23.407000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 8 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 10999 
+Setting anomaly at time 7292 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.85 |              296.76 |                     0.57 |                0.66 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 36, False Neg = 2
+Precision score: 0.710
+Recall score: 0.978
+F1 score: 0.822
+MCC: 0.832
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:23.846000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 7 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 5800 
+Setting anomaly at time 6772 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.35 |              296.49 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 37, False Neg = 2
+Precision score: 0.704
+Recall score: 0.978
+F1 score: 0.819
+MCC: 0.828
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:23.565000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 6 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 4424 
+Setting anomaly at time 9092 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.85 |              297.09 |                     0.56 |                0.66 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 30, False Neg = 2
+Precision score: 0.746
+Recall score: 0.978
+F1 score: 0.846
+MCC: 0.853
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:22.314000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 5 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 1499 
+Setting anomaly at time 11045 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.39 |              296.17 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 27, False Neg = 2
+Precision score: 0.765
+Recall score: 0.978
+F1 score: 0.859
+MCC: 0.864
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:22.461000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 4 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 2960 
+Setting anomaly at time 2252 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.28 |              296.28 |                     0.58 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 26, False Neg = 2
+Precision score: 0.772
+Recall score: 0.978
+F1 score: 0.863
+MCC: 0.868
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:21.903000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 3 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 2766 
+Setting anomaly at time 3895 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              164.92 |              297.52 |                     0.52 |                0.60 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 27, False Neg = 2
+Precision score: 0.765
+Recall score: 0.978
+F1 score: 0.859
+MCC: 0.864
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:22.139000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 2 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 1502 
+Setting anomaly at time 2494 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.15 |              296.24 |                     0.58 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 24, False Neg = 2
+Precision score: 0.786
+Recall score: 0.978
+F1 score: 0.871
+MCC: 0.875
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:28.839000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 1 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=30 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 30 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 7081 
+Setting anomaly at time 10265 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              164.09 |              296.84 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 30, False Neg = 2
+Precision score: 0.746
+Recall score: 0.978
+F1 score: 0.846
+MCC: 0.853
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 1.000
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:25.455000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 0 == 0 goto exitloop1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set loopcount=10 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 8900 
+Setting anomaly at time 8341 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.63 |              296.59 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 34, False Neg = 2
+Precision score: 0.721
+Recall score: 0.978
+F1 score: 0.830
+MCC: 0.838
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:18.079000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 9 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 7383 
+Setting anomaly at time 8578 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.68 |              296.57 |                     0.58 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 34, False Neg = 2
+Precision score: 0.721
+Recall score: 0.978
+F1 score: 0.830
+MCC: 0.838
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:18.018000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 8 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 5837 
+Setting anomaly at time 6597 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.23 |              296.45 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 39, False Neg = 2
+Precision score: 0.693
+Recall score: 0.978
+F1 score: 0.811
+MCC: 0.822
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:17.601000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 7 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 3012 
+Setting anomaly at time 3884 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              164.89 |              297.33 |                     0.55 |                0.64 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 29, False Neg = 2
+Precision score: 0.752
+Recall score: 0.978
+F1 score: 0.850
+MCC: 0.856
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:17.585000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 6 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 7676 
+Setting anomaly at time 3167 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.99 |              296.70 |                     0.54 |                0.63 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 29, False Neg = 2
+Precision score: 0.752
+Recall score: 0.978
+F1 score: 0.850
+MCC: 0.856
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:18.160000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 5 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 10128 
+Setting anomaly at time 3631 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.82 |              297.39 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 26, False Neg = 2
+Precision score: 0.772
+Recall score: 0.978
+F1 score: 0.863
+MCC: 0.868
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 1.000
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:16.124000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 4 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 2286 
+Setting anomaly at time 7385 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              163.99 |              296.82 |                     0.58 |                0.68 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 25, False Neg = 2
+Precision score: 0.779
+Recall score: 0.978
+F1 score: 0.867
+MCC: 0.872
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:15.813000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 3 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 3486 
+Setting anomaly at time 2123 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              164.59 |              297.32 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 24, False Neg = 2
+Precision score: 0.786
+Recall score: 0.978
+F1 score: 0.871
+MCC: 0.875
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:17.189000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 2 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 7944 
+Setting anomaly at time 1731 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              164.89 |              297.14 |                     0.56 |                0.65 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 25, False Neg = 2
+Precision score: 0.779
+Recall score: 0.978
+F1 score: 0.867
+MCC: 0.872
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:17.160000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 1 == 0 goto exitloop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>goto loop2 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>python blr_v12.py --dataset=enocean --train_win=24 --smooth_win=120 --forecast_win=60 --autor=1 
+Training window set to 1440 measurements
+Smoothing window set to 120 time intervals
+Forecast window set to 60 time intervals
+Auto-Regression initiated for AR1 samples
+Dataset with 11294 time intervals loaded
+Using 2 injections of size: 3000 kw and length: 45 intervals
+Robust Threshold: theta_r=2, v=10
+w = 0.840, L = 3.719
+
+Setting anomaly at time 8587 
+Setting anomaly at time 5268 
+--------------------------------------------------------------------------------------------------------------------------------------
+RMSE-score (smoothed) |    RMSE-score (raw) |             Relative MSE |                SMSE
+              162.89 |              295.97 |                     0.57 |                0.67 
+--------------------------------------------------------------------------------------------------------------------------------------
+True Pos = 88, False Pos = 35, False Neg = 2
+Precision score: 0.715
+Recall score: 0.978
+F1 score: 0.826
+MCC: 0.835
+Mean time to detect: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+Robust Precision score: 0.667
+Robust Recall score: 1.000
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+Time taken to run the algorithm
+0:00:16.661000
+ 
+--------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>set /a loopcount=loopcount-1 
+
+C:\Users\rkalvait\Desktop\RPI\RPI>if 0 == 0 goto exitloop2 
