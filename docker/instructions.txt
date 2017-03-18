@@ -1,0 +1,34 @@
+DOCKER INSTRUCTIONS
+-- SETUP --
+This system uses two docker images - one for the host, the other for clients.
+rkalvait/blr is the image for the client
+rkalvait/host is the image for the host
+If there are any issues using these images, you may build your own 
+from this directory to create a client image, or the ./host/ subdirectory
+for the host image.
+
+These images run on a subnet I have named smartnet. This subnet must be
+set up ahead of time using the following command:
+
+sudo docker network create --subnet=172.18.0.0/16 smartnet
+
+This is to maintain a static IP address or the host and allow communication
+between the containers.
+
+Once this has been set up, you can run the start script
+
+-- RUNNING --
+
+To start the system, simply run net_test.sh
+This will instantiate one host and a number of clients equal to the number
+of columns in the file data.csv. To test, run bash within the host client
+and read the contents of datalog.txt. It should contain data from a few 
+different IPs.
+
+-- TODO --
+
+Separate data files for each client
+More images for different types of cients (e.g. dorm, lab, office, etc.)
+Unique data per client (currently all clients have identical data sets)
+ - each client should have one unique column from data.csv
+Any additional features as requested by Dr. Tout or Michalis
