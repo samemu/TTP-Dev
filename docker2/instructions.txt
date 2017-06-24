@@ -1,0 +1,36 @@
+*IMPORTANT NOTE*: These files run without the sudo cmd. If you have not configured your docker account to be in the docker group, you will need to edit these docker cmds to have "sudo" in front of "docker" in the .sh files.
+
+For more info: look inside each respective file, look at the comments
+
+Step 1: Set up the subnet by running ./create_network.sh
+
+Step 2: Build the "quickstart" image. This will be the image for both the master and the messengers.
+The command is: 
+	docker build -t quick_start <insert path to dockerfile>
+
+Step 3: Spin up the master container by running ./spin_master.sh
+
+Step 4: Spin up the messenger containers by running ./spin_msgs.sh
+
+---TESTING--- *See important note at top of file for next cmd*
+To see if it has correctly spun up messengers equal to the number of columns in data.csv, that the messengers properly sent data to master, and that the master recieved this data in the proper files --- get a bash command line open in the master container.
+To do the above, use this command: 
+docker exec -it <insert master container name or id> /bin/bash -c "export TERM=xterm; exec bash"
+
+Now if you ls, you should see a # of data files equal to the # of cols in data.csv.
+cat these to the screen to verify correct output to each data file.
+To exit the master container, type exit.
+
+EXTRA NOTES:
+to stop all containers: docker stop $(docker ps -aq)
+to remove all containers: docker rm $(docker ps -aq)
+to inspect subnet: docker network inspect mynet
+to list running containers: docker ps
+to list all containers: docker ps -a
+to remove an image: docker image rm <image name>
+to see images: docker images
+to see all networks: docker network ls
+to remove a network: docker network rm <net name>
+
+we could make a master subdirectory so that the master container doesn't copy all the files (including importantly data.csv) within our main directory when we spin the master. (We would have a second dockerfile inside the master directory, along with a requirements.txt and master.py)
+
