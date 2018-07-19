@@ -1,9 +1,5 @@
-import clustering_noloop as cl
-from sklearn.decomposition import PCA
 import math
 import numpy as np
-import time
-import itertools
 
 
 def basis_transformation(xi, mu_j, variance):

@@ -1,4 +1,3 @@
-import numpy as np
 from sklearn.cluster import KMeans
 
 
@@ -15,11 +14,11 @@ from sklearn.cluster import KMeans
 
 
 def k_means_clustering(k,data):
-    print("doing kmeans clustering calculations; this is non-deterministic")
+    # print("doing kmeans clustering calculations; this is non-deterministic")
     # Initialize the model with 2 parameters -- number of clusters and random state.
     kmeans_model = KMeans(n_clusters=k)  # default random state
     kmeans_model.fit(data)
     labels = kmeans_model.labels_  # get the cluster assignments
     best_k = k
-    print("best k is " + str(best_k))
+    # print("best k is " + str(best_k))
     return best_k, kmeans_model
